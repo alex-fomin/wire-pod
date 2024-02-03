@@ -2,7 +2,7 @@ package localization
 
 import "github.com/kercre123/wire-pod/chipper/pkg/vars"
 
-var ValidVoskModels []string = []string{"en-US", "it-IT", "es-ES", "fr-FR", "de-DE", "pt-BR", "pl-PL", "zh-CN"}
+var ValidVoskModels []string = []string{"en-US", "it-IT", "es-ES", "fr-FR", "de-DE", "pt-BR", "pl-PL", "zh-CN", "ru-RU"}
 
 const STR_WEATHER_IN = "str_weather_in"
 const STR_WEATHER_FORECAST = "str_weather_forecast"
@@ -132,6 +132,8 @@ func GetText(key string) string {
 			return data[5]
 		} else if vars.APIConfig.STT.Language == "zh-CN" {
 			return data[6]
+		} else if vars.APIConfig.STT.Language == "ru-RU" {
+			return data[0]
 		}
 	}
 	return data[0]
