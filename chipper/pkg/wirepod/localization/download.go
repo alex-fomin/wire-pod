@@ -24,7 +24,7 @@ import (
 	"github.com/kercre123/wire-pod/chipper/pkg/vars"
 )
 
-var URLPrefix string = "https://github.com/kercre123/vosk-models/raw/main/"
+// var URLPrefix string = "https://github.com/kercre123/vosk-models/raw/main/"
 
 var URLPrefix string = "https://alphacephei.com/vosk/models/"
 

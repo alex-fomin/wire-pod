@@ -6,7 +6,7 @@ import (
 	"time"
 )
 
-var Utterances = []string{"what day is it", "date today", "date", "what days it"}
+var Utterances = []string{"какое сегодня число"}
 var Name = "Correct Date"
 
 func stripOutTriggerWords(s string) string {

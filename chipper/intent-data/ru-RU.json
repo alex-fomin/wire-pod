@@ -1,87 +1,87 @@
 [
 	{
 		"name" : "intent_names_username_extend", 
-		"keyphrases": ["name is", "native is", "names", "name's", "my name is" ]
+		"keyphrases": ["моё имя" ]
 	},
 	{	
 		"name": "intent_weather_extend", 
-		"keyphrases" : ["weather", "whether", "the other", "the water", "no other", "weather forecast", "weather tomorrow", "whats the weather" ]
+		"keyphrases" : ["погода", "какая погода" ]
 	},
 	{	
 		"name": "intent_names_ask", 
-		"keyphrases" : ["my name", "who am", "who am i"]
+		"keyphrases" : ["как меня зовут"]
 	},
 	{	
 		"name": "intent_imperative_eyecolor",
-		"keyphrases" : ["eye color", "colo", "i call her", "i foller", "icolor", "ecce", "erior", "ichor", "agricola", "change", "oracular", "oracle", "set your eye color to"]
+		"keyphrases" : ["цвет глаз", "поменяй цвет глаз"]
 	},
 	{	
 		"name": "intent_character_age", 
-		"keyphrases" : ["older", "how old", "old are you", "old or yo", "how there you"]
+		"keyphrases" : ["сколько тебе лет"]
 	},
 	{	
 		"name": "intent_explore_start", 
-		"keyphrases" : ["start", "plor", "owing", "tailoring", "oding", "oring", "pling", "start exploring"]
+		"keyphrases" : ["погуляй", "иди погуляй", "иди погулять"]
 	},
 	{	
 		"name": "intent_system_charger", 
-		"keyphrases" : ["charge", "home", "go to your", "church", "find your ch", "charger" ]
+		"keyphrases" : ["домой", "иди домой" ]
 	},
 		{	
 		"name": "intent_system_sleep",
-		"keyphrases" : ["flee", "sleep", "sheep", "go to sleep" ]
+		"keyphrases" : ["спи", "засыпай", "спит" ]
 	},
 	{	
 		"name": "intent_greeting_goodmorning", 
-		"keyphrases" : ["morning", "mourning", "mooning", "it bore", "afternoon", "after noon", "after whom", "good morning" ]
+		"keyphrases" : ["доброе утро"]
 	},
 		{	
 		"name": "intent_greeting_goodnight", 
-		"keyphrases" : ["night", "might", "goodnight" ]
+		"keyphrases" : ["доброй ночи" ]
 	},
 		{	
 		"name": "intent_greeting_goodbye", 
-		"keyphrases" : ["good bye", "good by", "good buy", "goodbye" ]
+		"keyphrases" : ["пока" ]
 	},
 	{	
 		"name": "intent_seasonal_happynewyear",
-		"keyphrases" : ["fireworks", "new year", "happy new", "happy to", "have been", "i now you", "no year", "enee", "i never", "knew her", "hobhouse", "bennie" ]
+		"keyphrases" : ["с новым годом", "покажи салют", "салют" ]
 	},
 	{	
 		"name": "intent_seasonal_happyholidays", 
-		"keyphrases" : ["he holds", "christmas", "behold", "holiday" ]
+		"keyphrases" : ["ура" ]
 	},
 	{	
 		"name": "intent_amazon_signin", 
-		"keyphrases" : ["in intellect", "fine in electa", "in alex", "ing alex", "in an elect", "to alex", "in angelica", "up alexa", "sign in to alexa" ]
+		"keyphrases" : ["в амазон" ]
 	},
 	{	
 		"name": "intent_amazon_signin", 
-		"keyphrases" : ["in outlet", "i now of elea", "out alexa", "out of ale" ]
+		"keyphrases" : ["из амазона" ]
 	},
 	{	
 		"name": "intent_imperative_forward",
-		"keyphrases" : ["forward", "for ward", "for word", "move forward", "forwards" ]
+		"keyphrases" : ["вперёд", "прямо" ]
 	},
 	{	
 		"name": "intent_imperative_turnaround", 
-		"keyphrases" : ["around", "one eighty", "one ate he", "turn around" ]
+		"keyphrases" : ["развернись" ]
 	},
 	{	
 		"name": "intent_imperative_turnleft", 
-		"keyphrases" : ["rn left", "go left", "e left", "ed left", "ernest" ]
+		"keyphrases" : ["налево" ]
 	},
 	{	
 		"name": "intent_imperative_turnright", 
-		"keyphrases" : ["rn right", "go right", "e right", "ernie", "credit", "ed right" ]
+		"keyphrases" : ["направо" ]
 	},
 	{	
 		"name": "intent_play_rollcube",
-		"keyphrases" : ["roll cu", "roll your cu", "all your cu", "roll human", "yorke", "old your he", "roll your cube" ]
+		"keyphrases" : ["крути кубик" ]
 	},
 	{	
 		"name": "intent_play_popawheelie", 
-		"keyphrases" : ["pop a w", "polwhele", "olwen", "i wieland", "do a wheel", "doorstone", "thibetan", "powell", "welst", "a wheel", "willie", "a really", "o' billy", "pop a wheelie", "do a wheel stand" ]
+		"keyphrases" : ["сделай бочку", "сделали бочку" ]
 	},
 	{	
 		"name": "intent_play_fistbump", 
@@ -89,130 +89,130 @@
 	},
 		{	
 		"name": "intent_play_blackjack", 
-		"keyphrases" : ["black", "cards", "game", "play blackjack" ]
+		"keyphrases" : ["сыграем в карты" ]
 	},
 		{	
 		"name": "intent_imperative_affirmative",
-		"keyphrases" : ["yes", "correct", "sure" ]
+		"keyphrases" : ["да", "правильно" ]
 	},
 	{	
 		"name": "intent_imperative_negative", 
-		"keyphrases" : ["no", "dont" ]
+		"keyphrases" : ["нет", "неправильно" ]
 	},
 	{	
 		"name": "intent_photo_take_extend", 
-		"keyphrases" : ["photo", "foto", "selby", "capture", "picture", "take a photo of me" ]
+		"keyphrases" : ["сделай фото", "сфотографируй" ]
 	},
 	{	
 		"name": "intent_imperative_praise", 
-		"keyphrases" : ["good", "awesome", "also", "as some", "of them", "battle", "t rob", "the ro", "amazing", "woodcourt", "good robot" ]
+		"keyphrases" : ["молодец" ]
 	},
 	{	
 		"name": "intent_imperative_abuse",
-		"keyphrases" : ["bad", "that ro", "ad ro", "a root", "hate", "horrible", "bad robot" ]
+		"keyphrases" : ["плохо", "плохой робот" ]
 	},
 	{	
 		"name": "intent_imperative_apologize", 
-		"keyphrases" : ["sorry", "apologize", "apologise", "the tory", "nevermind", "never mind", "im sorry" ]
+		"keyphrases" : ["извини", "прости" ]
 	},
 	{	
 		"name": "intent_imperative_backup", 
-		"keyphrases" : ["back", "back up", "backwards" ]
+		"keyphrases" : ["назад" ]
 	},
 	{	
 		"name": "intent_imperative_volumedown",
-		"keyphrases" : ["all you down", "volume down", "down volume", "down the volume", "quieter", "turn the volume down" ]
+		"keyphrases" : ["тише" ]
 	},
 	{	
 		"name": "intent_imperative_volumeup", 
-		"keyphrases" : ["all you up", "volume up", "up volume", "up the volume", "louder" ]
+		"keyphrases" : ["громче" ]
 	},
 	{	
 		"name": "intent_imperative_lookatme", 
-		"keyphrases" : ["stare", "at me" ]
+		"keyphrases" : ["посмотри на меня", "где  я" ]
 	},
 	{	
 		"name": "intent_imperative_volumelevel_extend",
-		"keyphrases" : ["all you", "volume", "loudness" ]
+		"keyphrases" : ["громкость" ]
 	},
 	{	
 		"name": "intent_imperative_shutup", 
-		"keyphrases" : ["shut up" ]
+		"keyphrases" : ["замолчи", "заткнись" ]
 	},
 	{	
 		"name": "intent_greeting_hello", 
-		"keyphrases" : ["hello", "are you", "our you", "high", "below", "little", "follow", "for you", "far you", "how about you", "how are you", "the low", "the loo" ]
+		"keyphrases" : ["привет" ]
 	},
 	{	
 		"name": "intent_imperative_come", 
-		"keyphrases" : ["come", "to me", "come here" ]
+		"keyphrases" : ["сюда", "иди ко мне", "ко мне" ]
 	},
 	{	
 		"name": "intent_imperative_love",
-		"keyphrases" : ["love", "dove", "i love you" ]
+		"keyphrases" : ["я тебя люблю" ]
 	},
 	{	
 		"name": "intent_knowledge_promptquestion", 
-		"keyphrases" : ["question", "weston", "i have a question" ]
+		"keyphrases" : ["вопрос" ]
 	},
 	{	
 		"name": "intent_clock_checktimer", 
-		"keyphrases" : ["check timer", "check the timer", "check the time her", "check time her", "check time her", "check time of her", "checked the timer", "checked the time her", "checked the time of her" ]
+		"keyphrases" : ["проверь таймер" ]
 	},
 	{	
 		"name": "intent_global_stop_extend", 
-		"keyphrases" : ["up the timer", "stop timer", "cancel the", "cancel timer", "stop clock", "stop be", "stopped t", "stopped be", "stopped at", "stop the" ]
+		"keyphrases" : ["таймер стоп", "останови таймер" ]
 	},
 	{	
 		"name": "intent_clock_settimer_extend",
-		"keyphrases" : ["timer", "time for", "time of for", "time or", "time of", "set a timer for" ]
+		"keyphrases" : ["таймер", "установи таймер на" ]
 	},
 	{	
 		"name": "intent_clock_time", 
-		"keyphrases" : ["time is it", "the time", "what time", "clock", "what time is it" ]
+		"keyphrases" : ["сколько времени", "который час", "сколько сейчас времени" ]
 	},
 	{	
 		"name": "intent_imperative_quiet", 
-		"keyphrases" : ["quiet", "stop", "be quiet" ]
+		"keyphrases" : ["тихо" ]
 	},
 	{	
 		"name": "intent_imperative_dance", 
-		"keyphrases" : ["dance", "dancing", "thence", "dance to the beat", "the beat", "boogie", "to the music" ]
+		"keyphrases" : ["потанцуй", "танцуй", "танцы"]
 	},
 	{	
 		"name": "intent_play_pickupcube",
-		"keyphrases" : ["pickup", "pick up" ]
+		"keyphrases" : ["подними" ]
 	},
 	{	
 		"name": "intent_imperative_fetchcube", 
-		"keyphrases" : ["fetch your cu", "fetch cu", "fetch the cu", "bring to me", "bring me", "bring me your cube" ]
+		"keyphrases" : ["принеси кубик", "подай кубик", "принеси куб", "подай куб" ]
 	},
 	{	
 		"name": "intent_imperative_findcube", 
-		"keyphrases" : ["your cu", "the cu", "find your cube" ]
+		"keyphrases" : ["найди куб", "где куб", "найди кубик", "где кубик" ]
 	},
 	{	
 		"name": "intent_play_anytrick", 
-		"keyphrases" : ["trick", "something cool", "some thing cool", "do a trick" ]
+		"keyphrases" : [ "сделай класс" ]
 	},
 	{	
 		"name": "intent_message_recordmessage_extend",
-		"keyphrases" : ["record" ]
+		"keyphrases" : ["запиши" ]
 	},
 	{	
 		"name": "intent_message_playmessage_extend", 
-		"keyphrases" : ["play message", "play method", "play a message", "play a method" ]
+		"keyphrases" : ["проиграй" ]
 	},
 		{	
 		"name": "intent_blackjack_hit", 
-		"keyphrases" : ["hit"]
+		"keyphrases" : ["хит"]
 	},
 	{	
 		"name": "intent_blackjack_stand", 
-		"keyphrases" : ["stand", "stan" ]
+		"keyphrases" : ["стой" ]
 	},
 	{	
 		"name": "intent_play_keepaway",
-		"keyphrases": ["keepaway", "keep away", "play keepaway" ]
+		"keyphrases": ["сохрани" ]
 	}
 ]
